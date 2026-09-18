@@ -242,3 +242,9 @@ nav h1 {
 #portfolio a:hover::after {
   opacity: 1;
 }
+
+body {
+    background-image: url('Ocean.jpeg');
+    background-repeat: no-repeat;
+   background-size: cover;
+  }
