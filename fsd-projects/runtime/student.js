@@ -55,8 +55,8 @@ return matches
 function moveGameObjects(objectList) {
   // TODO 6: Move all game objects of a single type based on speeds
 for (var i = 0; i < objectList.length; i++) {
- var currentObject = objectList[i];
-currentObject.x = currentObject.x + currentObject.speedX - currentLevel
+ var currentObject = objectList[i]; 
+ currentObject.x = currentObject.x + currentObject.speedX - currentLevel
 }
 
 }

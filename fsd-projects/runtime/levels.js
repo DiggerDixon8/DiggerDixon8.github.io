@@ -7,7 +7,7 @@ const LEVELS = [
     gameObjects: [
       { type: "obstacle", 
         kind: "spikes", 
-        x: 1600, 
+        x: 1400, 
         y: groundY, 
       },
       
@@ -29,7 +29,7 @@ const LEVELS = [
         kind: "basicPlatform",
         x: 800,
         y: groundY - 100,
-        contactHealthChange: -5,e
+        contactHealthChange: -5,
       },
       { type: "platform", kind: "basicPlatform", x: 600, y: groundY - 60 },
       {
@@ -47,7 +47,6 @@ const LEVELS = [
         hp: 0,
         
       },
-
       { type: "goal", kind: "flag", x: 2000, y: groundY },
     ],
   },
